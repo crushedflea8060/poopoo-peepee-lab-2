@@ -24,7 +24,7 @@ int main(void)
       printf("%d\t | %d", &fahrenheit[i], &celsius[i]);
   free(fahrenheit);
   free(celsius);
-  return 1;
+  return 0;
 }
         
         
